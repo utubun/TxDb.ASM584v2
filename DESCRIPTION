@@ -1,0 +1,16 @@
+Package: TxDb.Ecoli.K12.MG1655
+Title: Annotation package for TxDb object(s)
+Description: Exposes an annotation databases generated from https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.gff.gz by exposing these as TxDb objects
+Version: 0.0.1
+Author: Dmytro Strunin <dmytro.strunin@gmail.com> [cre]
+Maintainer: Dmytro Strunin <dmytro.strunin@gmail.com>
+Depends: GenomicFeatures (>= 1.50.4)
+Imports: AnnotationDbi
+License: GPL-3
+organism: Escherichia coli str. K12 substr. MG1655
+species: Escherichia coli str. K12 substr. MG1655
+provider: NCBI
+provider_version: https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.gff.gz
+release_date: 2023-03-12 18:30:34 +0100 (Sun, 12 Mar 2023)
+resource_url: https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.gff.gz
+biocViews: AnnotationData, Genetics, TxDb, Escherichia_coli_str._K12_substr._MG1655
